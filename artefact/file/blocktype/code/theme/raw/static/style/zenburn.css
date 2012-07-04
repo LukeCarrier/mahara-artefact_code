@@ -1,0 +1,114 @@
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+pre code.style-zenburn {
+  display: block; padding: 0.5em;
+  background: #3F3F3F;
+  color: #DCDCDC;
+}
+
+pre code.style-zenburn .keyword,
+pre code.style-zenburn .tag,
+pre code.style-zenburn .css .class,
+pre code.style-zenburn .css .id,
+pre code.style-zenburn .lisp .title,
+pre code.style-zenburn .nginx .title,
+pre code.style-zenburn .request,
+pre code.style-zenburn .status {
+  color: #E3CEAB;
+}
+
+pre code.style-zenburn .django .template_tag,
+pre code.style-zenburn .django .variable,
+pre code.style-zenburn .django .filter .argument {
+  color: #DCDCDC;
+}
+
+pre code.style-zenburn .number,
+pre code.style-zenburn .date {
+  color: #8CD0D3;
+}
+
+pre code.style-zenburn .dos .envvar,
+pre code.style-zenburn .dos .stream,
+pre code.style-zenburn .variable,
+pre code.style-zenburn .apache .sqbracket {
+  color: #EFDCBC;
+}
+
+pre code.style-zenburn .dos .flow,
+pre code.style-zenburn .diff .change,
+pre code.style-zenburn .python .exception,
+pre code.style-zenburn .python .built_in,
+pre code.style-zenburn .literal,
+pre code.style-zenburn .tex .special {
+  color: #EFEFAF;
+}
+
+pre code.style-zenburn .diff .chunk,
+pre code.style-zenburn .ruby .subst {
+  color: #8F8F8F;
+}
+
+pre code.style-zenburn .dos .keyword,
+pre code.style-zenburn .python .decorator,
+pre code.style-zenburn .title,
+pre code.style-zenburn .haskell .type,
+pre code.style-zenburn .diff .header,
+pre code.style-zenburn .ruby .class .parent,
+pre code.style-zenburn .apache .tag,
+pre code.style-zenburn .nginx .built_in,
+pre code.style-zenburn .tex .command,
+pre code.style-zenburn .input_number {
+    color: #efef8f;
+}
+
+pre code.style-zenburn .dos .winutils,
+pre code.style-zenburn .ruby .symbol,
+pre code.style-zenburn .ruby .symbol .string,
+pre code.style-zenburn .ruby .symbol .keyword,
+pre code.style-zenburn .ruby .symbol .keymethods,
+pre code.style-zenburn .ruby .string,
+pre code.style-zenburn .ruby .instancevar {
+  color: #DCA3A3;
+}
+
+pre code.style-zenburn .diff .deletion,
+pre code.style-zenburn .string,
+pre code.style-zenburn .tag .value,
+pre code.style-zenburn .pre code.style-zenburnprocessor,
+pre code.style-zenburn .built_in,
+pre code.style-zenburn .sql .aggregate,
+pre code.style-zenburn .javadoc,
+pre code.style-zenburn .smalltalk .class,
+pre code.style-zenburn .smalltalk .localvars,
+pre code.style-zenburn .smalltalk .array,
+pre code.style-zenburn .css .rules .value,
+pre code.style-zenburn .attr_selector,
+pre code.style-zenburn .pseudo,
+pre code.style-zenburn .apache .cbracket,
+pre code.style-zenburn .tex .formula {
+  color: #CC9393;
+}
+
+pre code.style-zenburn .shebang,
+pre code.style-zenburn .diff .addition,
+pre code.style-zenburn .comment,
+pre code.style-zenburn .java .annotation,
+pre code.style-zenburn .template_comment,
+pre code.style-zenburn .pi,
+pre code.style-zenburn .doctype {
+  color: #7F9F7F;
+}
+
+pre code.style-zenburn .coffeescript .javascript,
+pre code.style-zenburn .xml .css,
+pre code.style-zenburn .xml .javascript,
+pre code.style-zenburn .xml .vbscript,
+pre code.style-zenburn .tex .formula {
+  opacity: 0.5;
+}

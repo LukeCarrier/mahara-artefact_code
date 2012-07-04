@@ -1,0 +1,103 @@
+﻿/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+pre code.style-dark {
+  display: block; padding: 0.5em;
+  background: #444;
+}
+
+pre code.style-dark .keyword,
+pre code.style-dark .literal,
+pre code.style-dark .change,
+pre code.style-dark .winutils,
+pre code.style-dark .flow,
+pre code.style-dark .lisp .title,
+pre code.style-dark .nginx .title,
+pre code.style-dark .tex .special {
+  color: white;
+}
+
+pre code.style-dark code,
+pre code.style-dark .ruby .subst {
+  color: #DDD;
+}
+
+pre code.style-dark .string,
+pre code.style-dark .title,
+pre code.style-dark .haskell .type,
+pre code.style-dark .ini .title,
+pre code.style-dark .tag .value,
+pre code.style-dark .css .rules .value,
+pre code.style-dark .pre code.style-darkprocessor,
+pre code.style-dark .ruby .symbol,
+pre code.style-dark .ruby .symbol .string,
+pre code.style-dark .ruby .symbol .keyword,
+pre code.style-dark .ruby .symbol .keymethods,
+pre code.style-dark .ruby .instancevar,
+pre code.style-dark .ruby .class .parent,
+pre code.style-dark .built_in,
+pre code.style-dark .sql .aggregate,
+pre code.style-dark .django .template_tag,
+pre code.style-dark .django .variable,
+pre code.style-dark .smalltalk .class,
+pre code.style-dark .javadoc,
+pre code.style-dark .ruby .string,
+pre code.style-dark .django .filter .argument,
+pre code.style-dark .smalltalk .localvars,
+pre code.style-dark .smalltalk .array,
+pre code.style-dark .attr_selector,
+pre code.style-dark .pseudo,
+pre code.style-dark .addition,
+pre code.style-dark .stream,
+pre code.style-dark .envvar,
+pre code.style-dark .apache .tag,
+pre code.style-dark .apache .cbracket,
+pre code.style-dark .tex .command,
+pre code.style-dark .input_number {
+  color: #D88;
+}
+
+pre code.style-dark .comment,
+pre code.style-dark .java .annotation,
+pre code.style-dark .python .decorator,
+pre code.style-dark .template_comment,
+pre code.style-dark .pi,
+pre code.style-dark .doctype,
+pre code.style-dark .deletion,
+pre code.style-dark .shebang,
+pre code.style-dark .apache .sqbracket,
+pre code.style-dark .tex .formula {
+  color: #777;
+}
+
+pre code.style-dark .keyword,
+pre code.style-dark .literal,
+pre code.style-dark .title,
+pre code.style-dark .css .id,
+pre code.style-dark .phpdoc,
+pre code.style-dark .haskell .type,
+pre code.style-dark .vbscript .built_in,
+pre code.style-dark .sql .aggregate,
+pre code.style-dark .rsl .built_in,
+pre code.style-dark .smalltalk .class,
+pre code.style-dark .diff .header,
+pre code.style-dark .chunk,
+pre code.style-dark .winutils,
+pre code.style-dark .bash .variable,
+pre code.style-dark .apache .tag,
+pre code.style-dark .tex .special,
+pre code.style-dark .request,
+pre code.style-dark .status {
+  font-weight: bold;
+}
+
+pre code.style-dark .coffeescript .javascript,
+pre code.style-dark .xml .css,
+pre code.style-dark .xml .javascript,
+pre code.style-dark .xml .vbscript,
+pre code.style-dark .tex .formula {
+  opacity: 0.5;
+}

@@ -1,0 +1,106 @@
+/*
+
+Pojoaque Style by Jason Tate
+http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
+Based on Solarized Style from http://ethanschoonover.com/solarized
+
+*/
+
+pre code.style-pojoaque {
+  display: block; padding: 0.5em;
+  color: #DCCF8F;
+  background: url(./pojoaque.jpg) repeat scroll left top #181914;
+}
+
+pre code.style-pojoaque .comment,
+pre code.style-pojoaque .template_comment,
+pre code.style-pojoaque .diff .header,
+pre code.style-pojoaque .doctype,
+pre code.style-pojoaque .lisp .string,
+pre code.style-pojoaque .javadoc {
+  color: #586e75;
+  font-style: italic;
+}
+
+pre code.style-pojoaque .keyword,
+pre code.style-pojoaque .css .rule .keyword,
+pre code.style-pojoaque .winutils,
+pre code.style-pojoaque .javascript .title,
+pre code.style-pojoaque .method,
+pre code.style-pojoaque .addition,
+pre code.style-pojoaque .css .tag,
+pre code.style-pojoaque .lisp .title,
+pre code.style-pojoaque .nginx .title {
+  color: #B64926;
+}
+
+pre code.style-pojoaque .number,
+pre code.style-pojoaque .command,
+pre code.style-pojoaque .string,
+pre code.style-pojoaque .tag .value,
+pre code.style-pojoaque .phpdoc,
+pre code.style-pojoaque .tex .formula,
+pre code.style-pojoaque .regexp,
+pre code.style-pojoaque .hexcolor {
+  color: #468966;
+}
+
+pre code.style-pojoaque .title,
+pre code.style-pojoaque .localvars,
+pre code.style-pojoaque .function .title,
+pre code.style-pojoaque .chunk,
+pre code.style-pojoaque .decorator,
+pre code.style-pojoaque .builtin,
+pre code.style-pojoaque .built_in,
+pre code.style-pojoaque .lisp .title,
+pre code.style-pojoaque .identifier,
+pre code.style-pojoaque .title .keymethods,
+pre code.style-pojoaque .id {
+  color: #FFB03B;
+}
+
+pre code.style-pojoaque .attribute,
+pre code.style-pojoaque .variable,
+pre code.style-pojoaque .instancevar,
+pre code.style-pojoaque .lisp .body,
+pre code.style-pojoaque .smalltalk .number,
+pre code.style-pojoaque .constant,
+pre code.style-pojoaque .class .title,
+pre code.style-pojoaque .parent,
+pre code.style-pojoaque .haskell .type {
+  color: #b58900;
+}
+
+pre code.style-pojoaque .css .attribute {
+  color: #b89859;
+}
+
+pre code.style-pojoaque .css .number,pre code.style-pojoaque .css .hexcolor{
+  color: #DCCF8F;
+}
+
+pre code.style-pojoaque .css .class {
+  color: #d3a60c;
+}
+
+pre code.style-pojoaque .pre code.style-pojoaqueprocessor,
+pre code.style-pojoaque .pi,
+pre code.style-pojoaque .shebang,
+pre code.style-pojoaque .symbol,
+pre code.style-pojoaque .diff .change,
+pre code.style-pojoaque .special,
+pre code.style-pojoaque .keymethods,
+pre code.style-pojoaque .attr_selector,
+pre code.style-pojoaque .important,
+pre code.style-pojoaque .subst,
+pre code.style-pojoaque .cdata {
+  color: #cb4b16;
+}
+
+pre code.style-pojoaque .deletion {
+  color: #dc322f;
+}
+
+pre code.style-pojoaque .tex .formula {
+  background: #073642;
+}

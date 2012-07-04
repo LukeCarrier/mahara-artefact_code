@@ -1,0 +1,116 @@
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+pre code.style-monokai {
+  display: block; padding: 0.5em;
+  background: #272822;
+}
+
+pre code.style-monokai .params .identifier .keymethods {
+	color: #FD971F;
+}
+
+pre code.style-monokai .tag,
+pre code.style-monokai .tag .title,
+pre code.style-monokai .keyword,
+pre code.style-monokai .literal,
+pre code.style-monokai .change,
+pre code.style-monokai .winutils,
+pre code.style-monokai .flow,
+pre code.style-monokai .lisp .title,
+pre code.style-monokai .nginx .title,
+pre code.style-monokai .tex .special {
+  color: #F92672;
+}
+
+pre code.style-monokai code {
+  color: #DDD;
+}
+
+pre code.style-monokai code .constant {
+	color: #66D9EF;
+}
+
+pre code.style-monokai .class .title {
+	color: white;
+}
+
+pre code.style-monokai .attribute,
+pre code.style-monokai .symbol,
+pre code.style-monokai .value,
+pre code.style-monokai .regexp {
+	color: #BF79DB;
+}
+
+pre code.style-monokai .tag .value,
+pre code.style-monokai .string,
+pre code.style-monokai .ruby .subst,
+pre code.style-monokai .title,
+pre code.style-monokai .haskell .type,
+pre code.style-monokai .pre code.style-monokaiprocessor,
+pre code.style-monokai .ruby .instancevar,
+pre code.style-monokai .ruby .class .parent,
+pre code.style-monokai .built_in,
+pre code.style-monokai .sql .aggregate,
+pre code.style-monokai .django .template_tag,
+pre code.style-monokai .django .variable,
+pre code.style-monokai .smalltalk .class,
+pre code.style-monokai .javadoc,
+pre code.style-monokai .ruby .string,
+pre code.style-monokai .django .filter .argument,
+pre code.style-monokai .smalltalk .localvars,
+pre code.style-monokai .smalltalk .array,
+pre code.style-monokai .attr_selector,
+pre code.style-monokai .pseudo,
+pre code.style-monokai .addition,
+pre code.style-monokai .stream,
+pre code.style-monokai .envvar,
+pre code.style-monokai .apache .tag,
+pre code.style-monokai .apache .cbracket,
+pre code.style-monokai .tex .command,
+pre code.style-monokai .input_number {
+  color: #A6E22E;
+}
+
+pre code.style-monokai .comment,
+pre code.style-monokai .java .annotation,
+pre code.style-monokai .python .decorator,
+pre code.style-monokai .template_comment,
+pre code.style-monokai .pi,
+pre code.style-monokai .doctype,
+pre code.style-monokai .deletion,
+pre code.style-monokai .shebang,
+pre code.style-monokai .apache .sqbracket,
+pre code.style-monokai .tex .formula {
+  color: #75715E;
+}
+
+pre code.style-monokai .keyword,
+pre code.style-monokai .literal,
+pre code.style-monokai .css .id,
+pre code.style-monokai .phpdoc,
+pre code.style-monokai .title,
+pre code.style-monokai .haskell .type,
+pre code.style-monokai .vbscript .built_in,
+pre code.style-monokai .sql .aggregate,
+pre code.style-monokai .rsl .built_in,
+pre code.style-monokai .smalltalk .class,
+pre code.style-monokai .diff .header,
+pre code.style-monokai .chunk,
+pre code.style-monokai .winutils,
+pre code.style-monokai .bash .variable,
+pre code.style-monokai .apache .tag,
+pre code.style-monokai .tex .special,
+pre code.style-monokai .request,
+pre code.style-monokai .status {
+  font-weight: bold;
+}
+
+pre code.style-monokai .coffeescript .javascript,
+pre code.style-monokai .xml .css,
+pre code.style-monokai .xml .javascript,
+pre code.style-monokai .xml .vbscript,
+pre code.style-monokai .tex .formula {
+  opacity: 0.5;
+}
