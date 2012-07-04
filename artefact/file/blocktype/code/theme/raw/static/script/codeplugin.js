@@ -23,7 +23,7 @@ var CodePlugin = function($) {
 
 // Load a style set
 CodePlugin.prototype.loadStyle = function(style) {
-    var url;
+    var link, url;
     var $ = this.$;
 
     if (style in this.style_loaded) {
@@ -31,8 +31,9 @@ CodePlugin.prototype.loadStyle = function(style) {
     }
 
     url = this.style_baseurl + "/" + style + ".css";
+
     $("head").append("<link />");
-    var link = $("head").children(":last");
+    link = $("head").children(":last");
     link.attr({
         rel: "stylesheet",
         type: "text/css",
