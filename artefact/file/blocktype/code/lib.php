@@ -102,6 +102,7 @@ class PluginBlocktypeCode extends PluginBlocktype {
             "title"         => static::get_string("artefact"),
             "type"          => "artefactchooser",
             "artefacttypes" => array("file"),
+            "blocktype"     => "code",
             "rules"         => array(
                 "required" => "true",
             ),
